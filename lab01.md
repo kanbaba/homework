@@ -1,6 +1,6 @@
 # **“双鸭山大学”的来源**
 ![]（C:\Users\ASUS\Desktop）
-![]（C:\Users\ASUS\Desktop‘“双鸭山大学”校徽图样’）
+![]（C:\Users\ASUS\Desktop）
 
 
 “双鸭山大学”？这是什么？
