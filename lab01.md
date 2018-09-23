@@ -1,5 +1,5 @@
 # **“双鸭山大学”的来源**
-![]（C:\Users\ASUS\Desktop）
+![]（http://img1.imgtn.bdimg.com/it/u=4097988964,1023862447&fm=27&gp=0.jpg）
 ![]（C:\Users\ASUS\Desktop）
 
 
