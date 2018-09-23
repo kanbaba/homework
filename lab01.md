@@ -1,5 +1,5 @@
-###### **“双鸭山大学”的来源**
-![中山大学校徽图样]（C:\Users\ASUS\Desktop\中山大学校徽图样.jpg）
+# **“双鸭山大学”的来源**
+![中山大学校徽图样]（https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjEh-bdyNHdAhWBvbwKHQ9SAFEQjRx6BAgBEAU&url=http%3A%2F%2Fwww.sysu.edu.cn%2F2012%2Fcn%2Fzdgk%2Fzdgk06%2Findex.htm&psig=AOvVaw27ct9HLe2SlfZGtpRbOVCW&ust=1537807293602428“中山大学校徽”）
 ![]（C:\Users\ASUS\Desktop‘“双鸭山大学”校徽图样’）
 
 
@@ -19,7 +19,9 @@
 “双鸭山大学”的意外走红
 =====
 
-    “双鸭山大学”的走红是始于微博上一本书的截图，其中有这样一句话：“1984年出生在中国广东省广州市，父母是双鸭山大学（Sun Yat-sen University）的老师。”之后经由中山大学微博转发流传开来。    始作俑者“云湖浪子YZ25T”就此回应称，“双鸭山大学”并非错译，而是在自己小圈子里已流传长达五年的一个梗。五年前他在广州坐地铁，路过“中大”站，方知道中山大学的英文名就是“Sun Yat-sen University”，  但听报站音像“双鸭山大学”，他还曾在校内网（现人人网）上发照片说：“原来中山大学的英文是双鸭山大学。”
+    “双鸭山大学”的走红是始于微博上一本书的截图，其中有这样一句话：“1984年出生在中国广东省广州市，父母是双鸭山大学（Sun Yat-sen University）的老师。”之后经由中山大学微博转发流传开来
+    始作俑者“云湖浪子YZ25T”就此回应称，“双鸭山大学”并非错译，而是在自己小圈子里已流传长达五年的一个梗。五年前他在广州坐地铁，路过“中大”站，方知道中山大学的英文名就是“Sun Yat-sen University”,
+    但听报站音像“双鸭山大学”，他还曾在校内网（现人人网）上发照片说：“原来中山大学的英文是双鸭山大学。”
 ![]（C:\Users\ASUS\Desktop\b999a9014c086e0609490bf008087bf40bd1cba3.jpg）
 
 
