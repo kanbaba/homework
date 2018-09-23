@@ -1,6 +1,6 @@
 # **“双鸭山大学”的来源**
-![](C:\Users\ASUS\Desktop\中山大学校徽图样.jpg)
-![](http://img.mp.itc.cn/upload/20170626/c3b17bc867fd49228f641acfe91f4c30_th.jpg)
+![中山大学校徽图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg)
+![“双鸭山大学”版校徽图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9unyd0ej30fa0a3mxx.jpg)
 
 
 “双鸭山大学”？这是什么？
@@ -22,7 +22,7 @@
     “双鸭山大学”的走红是始于微博上一本书的截图，其中有这样一句话：“1984年出生在中国广东省广州市，父母是双鸭山大学（Sun Yat-sen University）的老师。”之后经由中山大学微博转发流传开来。
     作者“云湖浪子YZ25T”就此回应称，“双鸭山大学”并非错译，而是在自己小圈子里已流传长达五年的一个梗。五年前他在广州坐地铁，路过“中大”站，方知道中山大学的英文名就是“Sun Yat-sen University”,
     但听报站音像“双鸭山大学”，他还曾在校内网（现人人网）上发照片说：“原来中山大学的英文是双鸭山大学。”
-![]（C:\Users\ASUS\Desktop\b999a9014c086e0609490bf008087bf40bd1cba3.jpg）
+![上述微博图样]（https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9wei5c5j30g20arq3k.jpg）
 
 
 *相关知识中山大学校名“Sun Yat-sen”的由来*
@@ -36,4 +36,4 @@
 “双鸭山大学”衬衫
 ---------------------
 
-    ![]（C:\Users\ASUS\Desktop\e7cd7b899e510fb32136ec3dd333c895d1430c68.jpg）
+     ![“双鸭山大学”衬衫图样]（https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9y3tn30j30sg0pmgnc.jpg）
