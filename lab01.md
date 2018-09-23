@@ -1,6 +1,6 @@
 # **“双鸭山大学”的来源**
 ![](C:\Users\ASUS\Desktop\中山大学校徽图样.jpg)
-![]（C:\Users\ASUS\Desktop）
+![](http://img.mp.itc.cn/upload/20170626/c3b17bc867fd49228f641acfe91f4c30_th.jpg)
 
 
 “双鸭山大学”？这是什么？
