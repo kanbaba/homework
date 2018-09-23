@@ -2,7 +2,7 @@
 
 
 
-！[](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg "中山大学校徽")
+！[中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg)
 
 
 ！[“双鸭山大学”版中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9unyd0ej30fa0a3mxx.jpg)
