@@ -1,5 +1,6 @@
 # **“双鸭山大学”的来源**
-![](C:\Users\ASUS\Desktop)
+![](https://image.baidu.com/search/detail?ct=503316480&z=0&ipn=d&word=%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%BE%BD&step_word=&hs=0&pn=1&spn=0&di=159955666860&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&in=&cl=2&lm=-1&st=-1&cs=4097988964%2C1023862447&os=1070384677%2C2467165609&simid=3438165092%2C112376141&adpicid=0&lpn=0&ln=461&fr=&fmq=1537722511910_R&fm=index&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170626%2Fc3b17bc867fd49228f641acfe91f4c30_th.jpg&fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bf5i7_z%26e3Bv54AzdH3FwAzdH3F8cdal0nac_dmam8m&gsm=0&rpstart=0&rpnum=0&islist=&querylist=
+)
 ![]（C:\Users\ASUS\Desktop‘“双鸭山大学”校徽图样’）
 
 
