@@ -23,7 +23,10 @@
     作者“云湖浪子YZ25T”就此回应称，“双鸭山大学”并非错译，而是在自己小圈子里已流传长达五年的一个梗。五年前他在广州坐地铁，路过“中大”站，方知道中山大学的英文名就是“Sun Yat-sen University”,
     但听报站音像“双鸭山大学”，他还曾在校内网（现人人网）上发照片说：“原来中山大学的英文是双鸭山大学。”
 
-![上述微博图样]（https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9wei5c5j30g20arq3k.jpg）
+
+
+
+！[上述微博图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9wei5c5j30g20arq3k.jpg)
 
 
 *相关知识中山大学校名“Sun Yat-sen”的由来*
@@ -34,7 +37,5 @@
     “Sun Yat-sen”，其实是孙中山的英译名。对孙中山的英译名为何是“Sun Yat-sen”，较为常见的一说是孙中山别名孙逸仙的音译，还有更细致的考证说是孙逸仙的粤语音译。
 
 
-“双鸭山大学”衬衫
----------------------
 
-![“双鸭山大学”衬衫图样]（https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9y3tn30j30sg0pmgnc.jpg）
+！[“双鸭山大学”衬衫](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9y3tn30j30sg0pmgnc.jpg)
