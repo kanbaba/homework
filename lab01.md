@@ -1,5 +1,5 @@
 # **“双鸭山大学”的来源**
-![](http://www.sysu.edu.cn/2012/images/content/2012-11/20121109221446303940.jpg）
+![](https://www.google.com.hk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjEh-bdyNHdAhWBvbwKHQ9SAFEQjRx6BAgBEAU&url=http%3A%2F%2Fwww.sysu.edu.cn%2F2012%2Fcn%2Fzdgk%2Fzdgk06%2Findex.htm&psig=AOvVaw27ct9HLe2SlfZGtpRbOVCW&ust=1537807293602428)
 ![]（C:\Users\ASUS\Desktop‘“双鸭山大学”校徽图样’）
 
 
