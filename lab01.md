@@ -1,5 +1,5 @@
 # **“双鸭山大学”的来源**
-![中山大学校徽图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg)
+![中山大学校徽图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg “中山大学校徽”)
 ![“双鸭山大学”版校徽图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9unyd0ej30fa0a3mxx.jpg)
 
 
