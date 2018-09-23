@@ -1,5 +1,5 @@
 # **“双鸭山大学”的来源**
-![中山大学校徽图样]（http://www.sysu.edu.cn/2012/images/content/2012-11/20121109221446303940.jpg “中山大学校徽图样”）
+![](http://www.sysu.edu.cn/2012/images/content/2012-11/20121109221446303940.jpg）
 ![]（C:\Users\ASUS\Desktop‘“双鸭山大学”校徽图样’）
 
 
