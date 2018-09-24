@@ -2,10 +2,10 @@
 
 
 
-！[中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg)
+![中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9vmhj6pj30e609jglw.jpg)
 
 
-！[“双鸭山大学”版中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9unyd0ej30fa0a3mxx.jpg)
+![“双鸭山大学”版中山大学校徽](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9unyd0ej30fa0a3mxx.jpg)
 
 
 “双鸭山大学”？这是什么？
@@ -31,7 +31,7 @@
 
 
 
-！[上述微博图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9wei5c5j30g20arq3k.jpg)
+![上述微博图样](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9wei5c5j30g20arq3k.jpg)
 
 
 *相关内容*
@@ -48,7 +48,7 @@
     西安交通大学：“呐~鸭子分我一只好咩。”
 
 
-！[官方秀恩爱图片](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvkayak8tej30jk09fn0z.jpg)
+![官方秀恩爱图片](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvkayak8tej30jk09fn0z.jpg)
 
 
 
@@ -58,4 +58,4 @@
     由于“双鸭山大学”在网上的热度很高，调皮的网友就做出了下图的衬衫！
 
 
-！[“双鸭山大学”衬衫](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9y3tn30j30sg0pmgnc.jpg)
+![“双鸭山大学”衬衫](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvk9y3tn30j30sg0pmgnc.jpg)
