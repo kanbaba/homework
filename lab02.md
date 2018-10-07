@@ -43,13 +43,13 @@
   第二步需要添加行为。  
   我们需要让每个游戏对象都拥有自己的行动方式。  
     
-    我们要让玩家可以自由移动，同时不能运动到布局外面，并且使屏幕随着玩家的移动而移动。  
-    所以打开玩家属性栏中的行为属性，也就是“Behaviors”选项。  
-    之后我们为他添加“8 Direction”，“ScrollTo”，“BoundToLayout”三种行为。  
-    ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvzg728b4dj30e006x3zw.jpg)   
+  我们要让玩家可以自由移动，同时不能运动到布局外面，并且使屏幕随着玩家的移动而移动。  
+  所以打开玩家属性栏中的行为属性，也就是“Behaviors”选项。  
+  之后我们为他添加“8 Direction”，“ScrollTo”，“BoundToLayout”三种行为。  
+  ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvzg728b4dj30e006x3zw.jpg)   
 
-    完成图如下：  
-    ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvzg7j1bplj308905aq38.jpg)  
+  完成图如下：  
+  ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvzg7j1bplj308905aq38.jpg)  
     
     我们继续为子弹添加“Bullet movement”和“Destroy outside layout”两个行为。  
     为怪物添加“Bullet movement”这个行为，使怪物运动起来。  
