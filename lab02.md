@@ -51,9 +51,9 @@
   完成图如下：  
   ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fvzg7j1bplj308905aq38.jpg)  
     
-    我们继续为子弹添加“Bullet movement”和“Destroy outside layout”两个行为。  
-    为怪物添加“Bullet movement”这个行为，使怪物运动起来。  
-    给爆炸添加“Fade”这个行为，让它在出现后消失，使我们获得更好的游戏体验。  
+  我们继续为子弹添加“Bullet movement”和“Destroy outside layout”两个行为。  
+  为怪物添加“Bullet movement”这个行为，使怪物运动起来。  
+  给爆炸添加“Fade”这个行为，让它在出现后消失，使我们获得更好的游戏体验。  
     
   第三步我们需要做一些细微的调整。  
   我们需要调整玩家，子弹，怪物的移动速度。我们在行为属性中找到带有“Speed”的选项，对其进行修改。  
