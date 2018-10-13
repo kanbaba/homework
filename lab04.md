@@ -68,4 +68,4 @@
 ### 莫尔斯码和布莱叶盲文的具体表示  
 
 用莫尔斯码和布莱叶盲文可以表示我们的编码（CODE），如下图：  
-![]()
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fw6g0arj93j30gf06u3z6.jpg)
