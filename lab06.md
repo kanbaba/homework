@@ -37,7 +37,9 @@
 &#160; &#160; 事实也是这样的，每次微软的新软件出现，才会带动英特尔这样的硬件制造商营业额的增长。  
 &#160; &#160; 这就是著名的盖茨-安迪定律。  
 
-ps:艾迪·葛洛夫
+ps:艾迪·葛洛夫  
+
 ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fwkq25afvlj307g09b3yo.jpg)  
 ps：比尔·盖茨
+
 ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fwkq2j9hfgj30vv0s1whz.jpg)
