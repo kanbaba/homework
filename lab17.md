@@ -161,7 +161,9 @@
 假如不明白什么是递减率，我给个[梳排序递减率](https://blog.csdn.net/u010647471/article/details/50170825)的链接，大家自己看，绝对能懂。  
 
 动图在你看了递减率后特别容易明白，也会加深你对梳排序的理解：  
-![]()
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkb7us1avg307h0757pw.jpg)  
+
+代码：
 
 
 
