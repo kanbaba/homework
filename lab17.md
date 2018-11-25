@@ -1,5 +1,6 @@
 # 排序算法 
 
+## 排序
 #### 冒泡排序  
 ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxk941h3pyg307s06ldhe.jpg)  
 
@@ -162,7 +163,6 @@
 动图在你看了递减率后特别容易明白，也会加深你对梳排序的理解：  
 ![]()
 
-## 引用 
 
 
 [1]:https://www.zhihu.com/question/20063815/answer/307255236
