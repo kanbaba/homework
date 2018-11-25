@@ -152,6 +152,7 @@
 )反正我也是看了他的才会这个。  
 
 #### 梳排序  
+
 我觉得我还可以说个梳排序。  
 梳排序是改良自冒泡排序和插入排序的一种算法。
 
@@ -165,6 +166,161 @@
 
 代码：
 
+	void comb_sort(int* data, int n)
+	{
+		const double shrink = 1.25;
+		int i, delta = n, noswap = 0;
+		while(!noswap)
+		{
+			for(noswap = 1, i = 0; i + delta < n; i++)
+				if(data[i] > data[i + delta])
+				{
+					data[i] ^= data[i + delta];
+					data[i + delta] ^= data[i];
+					data[i] ^= data[i + delta];
+					noswap = 0;
+				}
 
+			if(delta > 1)
+			{
+				delta /= shrink;
+				noswap = 0;
+			}
+		}
+	}  
+
+（代码可能不好懂，原理还是容易明白的，你可以看明白原理自己写代码）  
+
+#### 希尔排序  
+梳排序和希尔排序有个共同点，就是对增量进行缩减，所以我们现在来说希尔排序。  
+
+希尔排序是对插入排序的一个极大优化。
+
+插入排序最大的缺点在哪里？每次只能把数据前进一位。但它也有一个巨大的有点，就是把元素线性排列，有序性很高。  
+
+希尔排序继承了插入排序的优点，抛弃了它的缺点。它是怎么实现的呢？
+
+对于一组无序的数组：
+首先，希尔排序对元素进行分组（假设元素有n个），希尔排序会首先分成n/2组，这样每组只有两个元素。因为是无序的，元素需要插入，但是每组元素个数少，因此插入时移动的位置少。等到元素个数多的时候，数组经过之前的排序，有序性增加，所以移动的位置也不会很多。这样就克服了插入排序的缺点，得到很好的效率提升。  
+
+从直观上看希尔排序：  
+就是把数列进行分组(不停使用插入排序)，直至从宏观上看起来有序，最后插入排序起来就容易了(无须多次移位或交换)。  
+
+然后就是增量的问题：增量记为d=n/2，每轮都会用d/2，当d=1时结束.（比如n=9，第一次4，第二次2，第三次1）  
+
+给个例子吧：  
+现在我们有一个数组，该数组有6个元素  
+int[] arrays = {2, 5, 1, 3, 4, 6};  
+排序前：  
+将该数组看成三个（arrays.length/2)数组，分别是:{2,3},{5,4},{1,6}  
+第一趟排序：  
+对三个数组分别进行**插入排序**，因此我们三个数组得到的结果为{2,3},{4,5},{1,6}  
+此时数组是这样子的：{2, 4, 1, 3, 5, 6}  
+第二趟排序：  
+增量减少了，上面增量是3，此时增量应该为1了，因此把{2, 4, 1, 3, 5, 6}看成一个数组(从宏观上是有序的了)，对其进行**插入排序**  
+
+ps：每一次都是插入排序
+
+附动图两张：  
+这张很帅，但是达不到我想要的效果，我是没咋看懂。好像是哪个变成黄色的就和前面的比较吧。  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkdd110uug307p09kgsu.jpg)  
+
+附一张我能看懂的  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkdf0yws1g30ih0821kx.jpg)  
+
+代码，也给两个吧：  
+第一个是易于理解的（可以直接看第二个，假如理解就不用管这个）
+
+	#include <stdio.h>
+	#include <math.h>
+
+	#define MAXNUM 10
+ 
+	void main()
+	{
+    	void shellSort(int array[],int n,int t);//t为排序趟数
+    	int array[MAXNUM],i;
+    	for(i=0;i<MAXNUM;i++)
+        scanf("%d",&array[i]);
+    	shellSort(array,MAXNUM,(int)(log(MAXNUM+1)/log(2)));//排序趟数应为log2(n+1)的整数部分
+    	for(i=0;i<MAXNUM;i++)
+       		printf("%d ",array[i]);
+    	printf("\n");
+	}
+ 
+	//根据当前增量进行插入排序
+	void shellInsert(int array[],int n,int dk)
+	{
+    	int i,j,temp;
+    	for(i=dk;i<n;i++)//分别向每组的有序区域插入
+    	{
+        	temp=array[i];
+        	for(j=i-dk;(j>=i%dk)&&array[j]>temp;j-=dk)//比较与记录后移同时进行
+            	array[j+dk]=array[j];
+        	if(j!=i-dk)
+            	array[j+dk]=temp;//插入
+    	}
+	}
+ 
+	//计算Hibbard增量
+	int dkHibbard(int t,int k)
+	{
+   		return (int)(pow(2,t-k+1)-1);
+	}
+ 
+	//希尔排序
+	void shellSort(int array[],int n,int t)
+	{
+    	void shellInsert(int array[],int n,int dk);
+    	int i;
+    	for(i=1;i<=t;i++)
+        	shellInsert(array,n,dkHibbard(t,i));
+	}
+ 
+	//此写法便于理解，实际应用时应将上述三个函数写成一个函数。
+
+第二个是我们平常写题用的（方便的很）  
+
+	void shellSort(int[] arrays) 
+	{
+        //增量每次都/2
+        for (int step = arrays.length / 2; step > 0; step /= 2) 
+		{
+            //从增量那组开始进行插入排序，直至完毕
+            for (int i = step; i < arrays.length; i++) 
+			{
+
+                int j = i;
+                int temp = arrays[j];
+
+                // j - step 就是代表与它同组隔壁的元素
+                while (j - step >= 0 && arrays[j - step] > temp) 
+				{
+                    arrays[j] = arrays[j - step];
+                    j = j - step;
+                }
+                arrays[j] = temp;
+            }
+        }
+    } 
+
+《c程序设计语言》上也有一个希尔排序的代码：
+
+	（这可是我一个符号一个符号打出来的）
+	void shellsort(int v[],int n)
+	{
+		int gap,i,j,temp;
+
+		for(gap=n/2;gap>0;gap/=2)
+			for(i=gap;i<n;i++)
+				for(j=i-gap;j>=0 && v[j]>v[j+gap]; j-=gap)
+				{
+					temp=v[j];
+					v[j]=v[j+gap];
+					v[j+gap]=temp;
+				}
+	}
+
+#### 
 
 [1]:https://www.zhihu.com/question/20063815/answer/307255236
