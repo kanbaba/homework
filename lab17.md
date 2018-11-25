@@ -321,6 +321,241 @@ ps：每一次都是插入排序
 				}
 	}
 
-#### 
+#### 归并排序  
+归并排序也运用了递归，和快速排序有那么一丢丢的差不多。说一下吧。  
+
+归并排序使用了分治法，很简单：  
+把长度为n的输入序列分成两个长度为n/2的子序列；  
+对这两个子序列分别采用归并排序；  
+将两个排序好的子序列合并成一个最终的排序序列。   
+
+看起来理解不了，其实只需要一个动态图：
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkdsy1jvhg30mj0e1qcv.jpg)  
+
+宏观看一下效果：  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkdux5mthg307s06l0st.jpg)  
+
+懂了吗？不懂还有静态图：![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxke3zkjfuj30fe07c0t6.jpg)  
+
+
+
+然后再给个代码：
+
+归并排序的代码：  
+
+	void Msort(int *a, int begin, int end)
+	{
+ 		if(end > begin)
+		{ //序列中元素数目大于1
+ 		//二分序列，时间复杂度为O(logn) 
+ 		int mid = (begin+end)/2; //取中间值 
+ 		Msort(a, begin, mid); //对前一半递归排序 
+ 		Msort(a, mid+1, end); //对后一半递归排序 
+ 		Merge(a, begin, mid, end); //将两个排序好的序列合并成为一个有序的序列 
+ 		}
+	}
+
+合并两个有序序列代码：  
+
+	void Merge(int *a, int begin, int mid, int end)
+	{
+		 //申请临时空间 
+ 		int *b = (int *)malloc(sizeof(int)*(end - begin + 1)); 
+ 		int i,j;
+
+ 		//赋值 
+ 		for(i = begin, j = 0; i<=end; i++, j++)
+		{
+ 			b[j] = a[i];
+ 		}
+
+ 		//合并两个有序链表，时间复杂度为O(n) 
+ 		int k = begin;
+ 		for(i=begin, j=mid+1; i<=mid&&j<=end; )
+		{
+			if(b[i-begin] <= b[j-begin])
+			{
+ 				a[k++] = b[i-begin];//b[0]=a[begin]
+				i++;
+			}
+			else
+			{
+				a[k++] = b[j-begin];
+				j++;
+			}
+		}
+
+ 		//这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
+ 		while(i <= mid)
+		{ 
+ 			a[k++] = b[i-begin];
+ 			i++;
+ 		}
+ 		while(j <= end)
+		{
+ 			a[k++] = b[j-begin];
+ 			j++;
+ 		} 
+
+ 		//释放临时空间 
+ 		free(b); 
+	}
+
+
+最后的整体代码：  
+
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <malloc.h>
+	void Merge(int *a, int begin, int mid, int end)
+	{
+ 		//申请临时空间 
+ 		int *b = (int *)malloc(sizeof(int)*(end - begin + 1)); 
+ 		int i,j;
+ 		//赋值 
+ 		for(i = begin, j = 0; i<=end; i++, j++)
+		{
+ 			b[j] = a[i];
+ 		}
+
+ 		//合并两个有序链表，时间复杂度为O(n) 
+		int k = begin;
+ 		for(i=begin, j=mid+1; i<=mid&&j<=end; )
+		{
+ 			if(b[i-begin] <= b[j-begin])
+			{
+ 				a[k++] = b[i-begin];
+ 				i++;
+ 			}
+			else
+			{
+ 				a[k++] = b[j-begin];
+ 				j++;
+ 			}
+ 		}
+
+ 		//这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
+ 		while(i <= mid)
+		{ 
+ 			a[k++] = b[i-begin];
+ 			i++;
+ 		}
+ 		while(j <= end)
+		{
+ 		a[k++] = b[j-begin];
+ 		j++;
+ 		} 
+
+ 		//释放临时空间 
+ 		free(b); 
+	}
+
+	void Msort(int *a, int begin, int end)
+	{
+ 		if(end > begin)
+		{
+ 			//二分序列，时间复杂度为O(logn) 
+ 			int mid = (begin+end)/2; //取中间值 
+ 			Msort(a, begin, mid); //对前一半递归排序 
+ 			Msort(a, mid+1, end); //对后一半递归排序 
+ 			Merge(a, begin, mid, end); //将两个排序好的序列合并成为一个有序的序列 
+ 		}
+	}
+ 
+	int main()
+	{
+ 		int a[10] = {2, 5, 4, 3, 1, 15, 3, 35, 21, 12};
+ 		Msort(a, 0, 9);
+ 		int i;
+ 		for(i = 0; i < 10; i++)
+		{
+ 			printf("%d ", a[i]);
+ 		}
+		return 0;
+	}  
+
+
+记住这串代码，你就学会并且理解了归并排序。  
+
+嫌我说的不清楚的，请拜读这位[知乎大佬的帖子](https://zhuanlan.zhihu.com/p/46438037),不过这次我不是看了这个才懂得。  
+
+#### 桶排序  
+
+桶排序就比较好理解了，你把数据分类，每一类都是一个桶，然后把数据放到桶里。桶是有一定顺序的，所以只需要把每个桶内的数据都进行排序，再按照桶的顺序进行输出，就可以达到排序的目的。  
+
+总结一下，大致4步：  
+设置一个定量的数组当作空桶；  
+遍历输入数据，并且把数据一个一个放到对应的桶里去；  
+对每个不是空的桶进行排序；  
+从不是空的桶里把排好序的数据拼接起来。   
+
+示意图：  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkeldmhv0j30c308a0ti.jpg)  
+
+代码：  
+我没找到太好的代码。这样吧，给一个大佬博客的链接，大家有兴趣直接学习。大佬的代码要事例的，还是自己去看比较好。  
+[桶排序初级阶段学习](https://blog.csdn.net/YinhJiang/article/details/80397415
+)
+
+#### 计数排序  
+
+在桶排序的基础上，说一下计数排序，这个很简单，但是适用范围比较窄。你可能用过，但是没听说过这个名字。  
+
+比如对一列数进行排序。这列数字有10000个0，10000个3，10000个5，10000个7，10000个9.你会怎么处理？  
+
+假如是我，规定一个数组buf[10]={0}，统计这些数字，出现0，buf[0]++，以此类推。最后再按顺序输出相应数目的0，3，5，7，9.
+
+真的方便。适用于数字数目少，重复次数多的数列。多了就不大好用了。  
+不给动图和代码了，简单。 
+
+#### 基数排序  
+
+还有一个和计数排序听起来差不多的排序算法——基数排序。  
+
+直接上动图，一看就懂：![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkexec1bag30s40fydky.jpg)  
+
+代码：  
+[基数排序代码及讲解](https://zhuanlan.zhihu.com/p/26702524)  
+明人不说暗话，这个里面有详细的基数排序代码及讲解。  
+基数排序虽然易于理解，但是代码有点长。  
+
+上面那个链接里面还有计数排序与基数排序的比较。 
+
+#### 堆排序  
+
+说实话吧，这个我到现在还没有理解是个什么情况，也写不出来什么道道。。。。。  
+
+这样吧，我先给个我看的[大佬帖子](https://zhuanlan.zhihu.com/p/46680658)  
+
+里面不但有讲解，还有代码，还有图示，特别好。  
+
+但是它没有动图。。。  
+
+恰好我有：
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkf9pyzuvg30f70a4u0x.jpg)  
+
+我还有一张看起来特别酷的：  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkf90iauxg307s05ydn6.jpg)
+
+
+#### 猴子排序  
+
+最后说个特别好玩的排序——猴子排序。  
+不对，是所有排序算法中的至尊程序，拥有这最低的复杂度。O(N)！它突破了最优复杂度的界限。  
+
+简单的来说，就是随机把无序数组排序，如果正好有序，就结束。
+
+233333333，给个视频自己感受：  
+
+图9就是这个王者算法!(严肃脸):[带有猴子算法的视频的大佬的帖子](https://zhuanlan.zhihu.com/p/38157591
+)
+
+
+来个正常的视频：[算法比较](https://zhuanlan.zhihu.com/p/34421623
+)  
+
+## 引用  
+
+引用了很多知乎大佬的帖子，我就不一一说了，侵权歉删。
 
 [1]:https://www.zhihu.com/question/20063815/answer/307255236
