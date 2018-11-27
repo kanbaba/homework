@@ -379,17 +379,17 @@ ps：每一次都是插入排序
 
 	void Merge(int *a, int begin, int mid, int end)
 	{
-		 //申请临时空间 
+		 //申请临时空间  
  		int *b = (int *)malloc(sizeof(int)*(end - begin + 1)); 
  		int i,j;
 
- 		//赋值 
+ 		 //赋值   
  		for(i = begin, j = 0; i<=end; i++, j++)
 		{
  			b[j] = a[i];
  		}
 
- 		 //合并两个有序链表，时间复杂度为O(n) 
+ 		 //合并两个有序链表，时间复杂度为O(n)   
  		 int k = begin;
  		 for(i=begin, j=mid+1; i<=mid&&j<=end; )
 		 {
@@ -405,7 +405,7 @@ ps：每一次都是插入排序
 			}
 		 }
 
- 		 //这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
+ 		 //这两个只会执行其中一个，因为只有一个序列没有被完全遍历   
  		 while(i <= mid)
 		 { 
  			a[k++] = b[i-begin];
@@ -417,7 +417,7 @@ ps：每一次都是插入排序
  			j++;
  		 } 
 
- 		 //释放临时空间 
+ 		 //释放临时空间   
  		 free(b); 
 	}
 
@@ -429,16 +429,16 @@ ps：每一次都是插入排序
 	#include <malloc.h>
 	void Merge(int *a, int begin, int mid, int end)
 	{
- 		//申请临时空间 
+ 		//申请临时空间   
  		int *b = (int *)malloc(sizeof(int)*(end - begin + 1)); 
  		int i,j;
- 		//赋值 
+ 		//赋值   
  		for(i = begin, j = 0; i<=end; i++, j++)
 		{
  			b[j] = a[i];
  		}
 
- 		//合并两个有序链表，时间复杂度为O(n) 
+ 		//合并两个有序链表，时间复杂度为O(n)   
 		int k = begin;
  		for(i=begin, j=mid+1; i<=mid&&j<=end; )
 		{
@@ -454,7 +454,7 @@ ps：每一次都是插入排序
  			}
  		}
 
- 		//这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
+ 		//这两个只会执行其中一个，因为只有一个序列没有被完全遍历   
  		while(i <= mid)
 		{ 
  			a[k++] = b[i-begin];
@@ -466,7 +466,7 @@ ps：每一次都是插入排序
  		j++;
  		} 
 
- 		//释放临时空间 
+ 		//释放临时空间   
  		free(b); 
 	}
 
@@ -474,11 +474,11 @@ ps：每一次都是插入排序
 	{
  		if(end > begin)
 		{
- 			//二分序列，时间复杂度为O(logn) 
+ 			//二分序列，时间复杂度为O(logn)   
  			int mid = (begin+end)/2; //取中间值 
  			Msort(a, begin, mid); //对前一半递归排序 
  			Msort(a, mid+1, end); //对后一半递归排序 
- 			Merge(a, begin, mid, end); //将两个排序好的序列合并成为一个有序的序列 
+ 			Merge(a, begin, mid, end); //将两个排序好的序列合并成为一个有序的序列   
  		}
 	}
  
