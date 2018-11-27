@@ -355,7 +355,8 @@ ps：每一次都是插入排序
 宏观看一下效果：  
 ![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxkdux5mthg307s06l0st.jpg)  
 
-懂了吗？不懂还有静态图：![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxke3zkjfuj30fe07c0t6.jpg)  
+懂了吗？不懂还有静态图：  
+![](https://ws1.sinaimg.cn/large/007kRF1Jgy1fxke3zkjfuj30fe07c0t6.jpg)  
 
 
 
@@ -420,7 +421,7 @@ ps：每一次都是插入排序
  		 } 
 
  		 //释放临时空间   
-		  
+
  		 free(b); 
 	}
 
