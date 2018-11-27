@@ -389,10 +389,10 @@ ps：每一次都是插入排序
  			b[j] = a[i];
  		}
 
- 		//合并两个有序链表，时间复杂度为O(n) 
- 		int k = begin;
- 		for(i=begin, j=mid+1; i<=mid&&j<=end; )
-		{
+ 		 //合并两个有序链表，时间复杂度为O(n) 
+ 		 int k = begin;
+ 		 for(i=begin, j=mid+1; i<=mid&&j<=end; )
+		 {
 			if(b[i-begin] <= b[j-begin])
 			{
  				a[k++] = b[i-begin];//b[0]=a[begin]
@@ -403,22 +403,22 @@ ps：每一次都是插入排序
 				a[k++] = b[j-begin];
 				j++;
 			}
-		}
+		 }
 
- 		//这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
- 		while(i <= mid)
-		{ 
+ 		 //这两个只会执行其中一个，因为只有一个序列没有被完全遍历 
+ 		 while(i <= mid)
+		 { 
  			a[k++] = b[i-begin];
  			i++;
- 		}
- 		while(j <= end)
-		{
+ 		 }
+ 		 while(j <= end)
+		 {
  			a[k++] = b[j-begin];
  			j++;
- 		} 
+ 		 } 
 
- 		//释放临时空间 
- 		free(b); 
+ 		 //释放临时空间 
+ 		 free(b); 
 	}
 
 
