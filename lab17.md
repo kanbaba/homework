@@ -392,8 +392,8 @@ ps：每一次都是插入排序
 
  		 //合并两个有序链表，时间复杂度为O(n)
 
- 		int k = begin;
- 		for(i=begin, j=mid+1; i<=mid&&j<=end; )
+ 		int k = begin;  
+ 		for(i=begin, j=mid+1; i<=mid&&j<=end; )  
 		{
 			if(b[i-begin] <= b[j-begin])
 			{
@@ -409,7 +409,7 @@ ps：每一次都是插入排序
 
  		 //这两个只会执行其中一个，因为只有一个序列没有被完全遍历   
 
- 		 while(i <= mid)
+ 		 while(i <= mid)  
 		 { 
  			a[k++] = b[i-begin];
  			i++;
@@ -425,6 +425,7 @@ ps：每一次都是插入排序
  		 free(b); 
 	}
 
+	
 
 最后的整体代码：  
 
