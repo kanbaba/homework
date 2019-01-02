@@ -249,7 +249,7 @@ notmove是为了**判断是否能向这个方向走**，假如能，就返回一
         char ch;
         system("title 贪吃蛇——小统");//加个题目
         system("mode con cols=35 lines=25");//给个大小
-        system("color F0");//改变颜色，给平淡无奇的控制台增添点色彩
+        system("color 01");//改变颜色，给平淡无奇的控制台增添点色彩
 
         output();
 
