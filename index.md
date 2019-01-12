@@ -43,4 +43,7 @@
 ![](images/exclamation.png) 语法 [demo 文档](demo)， [source](https://github.com/sysu-swi/homework/blob/gh-pages/demo.md)
 
 
+## LaTex  
+
+1. [LaTex语法示范](hello.md)
 
